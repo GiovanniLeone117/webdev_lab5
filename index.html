@@ -12,6 +12,7 @@
 </head>
 
 <body>
+  <h1>Volunteer Form</h1>
   <form method="post" autocomplete="on" action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php">
     <fieldset>
 	  <legend>My Info</legend>
@@ -43,23 +44,24 @@
 	<fieldset>
 	  <legend>My Availability</legend>
 	  <div>
-	    <label>Sunday<input type="checkbox" name="availability_field[]" value="sunday"></label>
+	    <label>Sunday<input type="checkbox" name="available_field[]" value="sunday"></label>
       </div>
-	    <label>Monday<input type="checkbox" name="availability_field[]" value="monday"></label>
+	    <label>Monday<input type="checkbox" name="available_field[]" value="monday"></label>
 	  <div>
-	    <label>Tuesday<input type="checkbox" name="availability_field[]" value="tuesday"></label>
+	    <label>Tuesday<input type="checkbox" name="available_field[]" value="tuesday"></label>
 	  </div>
-	    <label>Wednesday<input type="checkbox" name="availability_field[]" value="wednesday"></label>
+	    <label>Wednesday<input type="checkbox" name="available_field[]" value="wednesday"></label>
 	  <div>
-	    <label>Thursday<input type="checkbox" name="availability_field[]" value="thursday"></label>
+	    <label>Thursday<input type="checkbox" name="available_field[]" value="thursday"></label>
 	  </div>
-	    <label>Friday<input type="checkbox" name="availability_field[]" value="friday"></label>
+	    <label>Friday<input type="checkbox" name="available_field[]" value="friday"></label>
 	  <div>
-	    <label>Saturday<input type="checkbox" name="availability_field[]" value="saturday"></label>
+	    <label>Saturday<input type="checkbox" name="available_field[]" value="saturday"></label>
       </div>
 	  <h3>Comments</h3>
 	  <textarea name="comments_field"></textarea>
 	</fieldset>
+	<input type="hidden" name="hidden_field" value="giovanni leone">
 	<input type="submit" value="Submit Query">
   </form>	
 </body>
