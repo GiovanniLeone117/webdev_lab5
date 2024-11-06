@@ -15,7 +15,30 @@
   <form method="post" autocomplete="on" action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php">
     <fieldset>
 	  <legend>My Info</legend>
-	  <label>first name:<input type="text" name="first_name_field"></label> 
+	  <div>
+	    <label>first name:<input type="text" name="first_name_field"></label>
+	  </div>
+	  <div>
+        <label>last name:<input type="text" name="last_name_field"></label>
+	  </div>
+	  <div>
+        <label>phone:<input type="text" name="phone_field"></label>
+	  </div>
+	  <div>
+        <label>email:<input type="email" name="email_field"></label>
+      </div>
+	  <div>
+	    <div>Gender:</div>
+		<label>Male<input type="radio" name="gender_field" value="male"></label>
+        <label>Female<input type="radio" name="gender_field" value="female"></label>		
+	  </div>
+	  <div>
+	    <div>Age:</div>
+		<select name="age_field">
+		  <option>under 18</option>
+		  <option>over 18</option>
+		</select>
+	  </div>
 	</fieldset>
 </body>
 
